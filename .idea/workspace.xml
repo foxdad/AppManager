@@ -1,0 +1,1253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="AppManager:war" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ba27506d-c7d8-432f-ad11-72146e995b94" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AppManager.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/it/lt/controller/Inte/AllInter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/it/lt/controller/back/BackController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/it/lt/controller/dev/AppInfoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/it/lt/controller/dev/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/it/lt/controller/dev/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/it/lt/dao/back/IBackUserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/it/lt/dao/dev/IAppCategory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/it/lt/dao/dev/IAppInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/it/lt/dao/dev/IAppVersion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/it/lt/dao/dev/IDevUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/it/lt/entity/AdPromotion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/it/lt/entity/AppCategory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/it/lt/entity/AppInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/it/lt/entity/AppVersion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/it/lt/entity/BackendUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/it/lt/entity/DataDictionary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/it/lt/entity/DevUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/it/lt/entity/tool/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/it/lt/entity/tool/PageSupport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/it/lt/service/back/IBackUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/it/lt/service/back/impl/BackUserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/it/lt/service/dev/IAppCategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/it/lt/service/dev/IAppInfoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/it/lt/service/dev/IAppVersionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/it/lt/service/dev/IUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/it/lt/service/dev/impl/AppCategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/it/lt/service/dev/impl/AppInfoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/it/lt/service/dev/impl/AppVersionServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/it/lt/service/dev/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/JDBC_config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/AppCategory.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/AppInfo.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/AppVersion.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/BackUser.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/DevUser.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/springmvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/403.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/back/appcheck.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/back/applist.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/back/backLogin.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/back/common/footer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/back/common/header.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/back/common/js.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/back/main.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/main/appinfoadd.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/main/appinfolist.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/main/appinfomodify.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/main/appinfoview.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/main/appversionadd.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/main/appversionmodify.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/main/common/footer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/main/common/header.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/main/common/js.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/main/devlogin.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/main/main.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/css/bootstrap-progressbar-3.3.4.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/css/custom.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/css/dropzone.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/css/green.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/css/green.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/css/green@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/css/jquery.mCustomScrollbar.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/css/jqvmap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/css/maps/jquery-jvectormap-2.0.3.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/css/nprogress.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/images/american-express.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/images/cropper.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/images/img.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/images/img1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/images/inbox.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/images/mastercard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/images/media.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/images/paypal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/images/picture.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/images/prod-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/images/prod-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/images/prod-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/images/prod-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/images/prod-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/images/user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/images/visa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/js/custom.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/js/datepicker/daterangepicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/js/dropzone.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/js/fastclick.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/js/jquery.mCustomScrollbar.concat.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/js/moment/moment.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/js/nprogress.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/js/validator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/localcss/appinfoadd.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/localcss/appinfolist.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/localcss/applist.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/localjs/appcheck.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/localjs/appinfoadd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/localjs/appinfolist.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/localjs/appinfomodify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/localjs/appinfoview.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/localjs/applist.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/localjs/appversionadd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/localjs/appversionmodify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/localjs/rollpage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/uploadfiles/air.net.machinarium.Machinarium.GP-V1.1.1.apk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/uploadfiles/air.net.machinarium.Machinarium.GP.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/uploadfiles/com.bithack.apparatus-V1.1.1.apk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/uploadfiles/com.bithack.apparatus-V1.1.2.apk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/uploadfiles/com.bithack.apparatus.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/uploadfiles/com.doodleapps.powdertoy-V1.1.2.apk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/uploadfiles/com.doodleapps.powdertoy-V1.1.3.apk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/uploadfiles/com.doodleapps.powdertoy-V1.1.31.apk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/uploadfiles/com.doodleapps.powdertoy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/uploadfiles/com.google.android.inputmethod.pinyin-V1.1.1.apk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/uploadfiles/com.google.android.inputmethod.pinyin.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/uploadfiles/com.katecca.screenofflockdonate.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/uploadfiles/com.kleientertainment.doNotStarvePocket-V1.1.1.apk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/uploadfiles/com.kleientertainment.doNotStarvePocket-V1.1.2.apk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/uploadfiles/com.kleientertainment.doNotStarvePocket.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/uploadfiles/com.lbe.security.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/uploadfiles/com.momocorp.o2jamu.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/uploadfiles/com.plexnor.gravityscreenoffpro.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/uploadfiles/com.sp.protector.free.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/uploadfiles/com.speedsoftware.rootexplorer-V1.1.1.apk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/uploadfiles/com.speedsoftware.rootexplorer.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/WEB-INF/classes/JDBC_config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/WEB-INF/classes/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/WEB-INF/classes/it/lt/controller/Inte/AllInter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/WEB-INF/classes/it/lt/controller/back/BackController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/WEB-INF/classes/it/lt/controller/dev/AppInfoController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/WEB-INF/classes/it/lt/controller/dev/Login.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/WEB-INF/classes/it/lt/controller/dev/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/WEB-INF/classes/it/lt/dao/back/IBackUserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/WEB-INF/classes/it/lt/dao/dev/IAppCategory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/WEB-INF/classes/it/lt/dao/dev/IAppInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/WEB-INF/classes/it/lt/dao/dev/IAppVersion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/WEB-INF/classes/it/lt/dao/dev/IDevUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/WEB-INF/classes/it/lt/entity/AdPromotion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/WEB-INF/classes/it/lt/entity/AppCategory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/WEB-INF/classes/it/lt/entity/AppInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/WEB-INF/classes/it/lt/entity/AppVersion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/WEB-INF/classes/it/lt/entity/BackendUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/WEB-INF/classes/it/lt/entity/DataDictionary.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/WEB-INF/classes/it/lt/entity/DevUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/WEB-INF/classes/it/lt/entity/tool/Constants.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/WEB-INF/classes/it/lt/entity/tool/PageSupport.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/WEB-INF/classes/it/lt/service/back/IBackUserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/WEB-INF/classes/it/lt/service/back/impl/BackUserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/WEB-INF/classes/it/lt/service/dev/IAppCategoryService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/WEB-INF/classes/it/lt/service/dev/IAppInfoService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/WEB-INF/classes/it/lt/service/dev/IAppVersionService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/WEB-INF/classes/it/lt/service/dev/IUserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/WEB-INF/classes/it/lt/service/dev/impl/AppCategoryService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/WEB-INF/classes/it/lt/service/dev/impl/AppInfoServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/WEB-INF/classes/it/lt/service/dev/impl/AppVersionServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/WEB-INF/classes/it/lt/service/dev/impl/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/WEB-INF/classes/mapper/AppCategory.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/WEB-INF/classes/mapper/AppInfo.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/WEB-INF/classes/mapper/AppVersion.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/WEB-INF/classes/mapper/BackUser.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/WEB-INF/classes/mapper/DevUser.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/WEB-INF/classes/springmvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/WEB-INF/jsp/403.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/WEB-INF/jsp/back/appcheck.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/WEB-INF/jsp/back/applist.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/WEB-INF/jsp/back/backLogin.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/WEB-INF/jsp/back/common/footer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/WEB-INF/jsp/back/common/header.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/WEB-INF/jsp/back/common/js.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/WEB-INF/jsp/back/main.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/WEB-INF/jsp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/WEB-INF/jsp/main/appinfoadd.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/WEB-INF/jsp/main/appinfolist.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/WEB-INF/jsp/main/appinfomodify.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/WEB-INF/jsp/main/appinfoview.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/WEB-INF/jsp/main/appversionadd.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/WEB-INF/jsp/main/appversionmodify.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/WEB-INF/jsp/main/common/footer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/WEB-INF/jsp/main/common/header.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/WEB-INF/jsp/main/common/js.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/WEB-INF/jsp/main/devlogin.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/WEB-INF/jsp/main/main.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/WEB-INF/lib/aspectjweaver-1.8.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/WEB-INF/lib/c3p0-0.9.1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/WEB-INF/lib/commons-fileupload-1.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/WEB-INF/lib/commons-io-2.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/WEB-INF/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/WEB-INF/lib/fastjson-1.2.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/WEB-INF/lib/jackson-annotations-2.7.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/WEB-INF/lib/jackson-core-2.7.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/WEB-INF/lib/jackson-databind-2.7.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/WEB-INF/lib/log4j-1.2.17.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/WEB-INF/lib/mchange-commons-java-0.2.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/WEB-INF/lib/mybatis-3.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/WEB-INF/lib/mybatis-spring-1.3.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/WEB-INF/lib/mysql-connector-java-5.1.35.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/WEB-INF/lib/slf4j-api-1.6.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/WEB-INF/lib/slf4j-log4j12-1.6.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/WEB-INF/lib/spring-aop-4.3.25.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/WEB-INF/lib/spring-aspects-4.3.25.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/WEB-INF/lib/spring-beans-4.3.25.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/WEB-INF/lib/spring-context-4.3.25.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/WEB-INF/lib/spring-context-support-4.3.25.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/WEB-INF/lib/spring-core-4.3.25.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/WEB-INF/lib/spring-expression-4.3.25.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/WEB-INF/lib/spring-jdbc-4.3.25.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/WEB-INF/lib/spring-tx-4.3.25.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/WEB-INF/lib/spring-web-4.3.25.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/WEB-INF/lib/spring-webmvc-4.3.25.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/statics/css/bootstrap-progressbar-3.3.4.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/statics/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/statics/css/custom.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/statics/css/dropzone.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/statics/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/statics/css/green.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/statics/css/green.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/statics/css/green@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/statics/css/jquery.mCustomScrollbar.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/statics/css/jqvmap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/statics/css/maps/jquery-jvectormap-2.0.3.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/statics/css/nprogress.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/statics/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/statics/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/statics/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/statics/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/statics/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/statics/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/statics/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/statics/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/statics/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/statics/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/statics/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/statics/images/american-express.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/statics/images/cropper.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/statics/images/img.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/statics/images/img1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/statics/images/inbox.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/statics/images/mastercard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/statics/images/media.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/statics/images/paypal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/statics/images/picture.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/statics/images/prod-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/statics/images/prod-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/statics/images/prod-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/statics/images/prod-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/statics/images/prod-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/statics/images/user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/statics/images/visa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/statics/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/statics/js/custom.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/statics/js/datepicker/daterangepicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/statics/js/dropzone.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/statics/js/fastclick.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/statics/js/jquery.mCustomScrollbar.concat.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/statics/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/statics/js/moment/moment.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/statics/js/nprogress.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/statics/js/validator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/statics/localcss/appinfoadd.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/statics/localcss/appinfolist.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/statics/localcss/applist.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/statics/localjs/appcheck.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/statics/localjs/appinfoadd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/statics/localjs/appinfolist.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/statics/localjs/appinfomodify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/statics/localjs/appinfoview.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/statics/localjs/applist.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/statics/localjs/appversionadd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/statics/localjs/appversionmodify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/statics/localjs/rollpage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/statics/uploadfiles/air.net.machinarium.Machinarium.GP-V1.1.1.apk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/statics/uploadfiles/air.net.machinarium.Machinarium.GP.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/statics/uploadfiles/com.bithack.apparatus-V1.1.1.apk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/statics/uploadfiles/com.bithack.apparatus-V1.1.2.apk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/statics/uploadfiles/com.bithack.apparatus.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/statics/uploadfiles/com.doodleapps.powdertoy-V1.1.2.apk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/statics/uploadfiles/com.doodleapps.powdertoy-V1.1.3.apk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/statics/uploadfiles/com.doodleapps.powdertoy-V1.1.31.apk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/statics/uploadfiles/com.doodleapps.powdertoy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/statics/uploadfiles/com.google.android.inputmethod.pinyin-V1.1.1.apk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/statics/uploadfiles/com.google.android.inputmethod.pinyin.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/statics/uploadfiles/com.katecca.screenofflockdonate.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/statics/uploadfiles/com.kleientertainment.doNotStarvePocket-V1.1.1.apk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/statics/uploadfiles/com.kleientertainment.doNotStarvePocket-V1.1.2.apk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/statics/uploadfiles/com.kleientertainment.doNotStarvePocket.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/statics/uploadfiles/com.lbe.security.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/statics/uploadfiles/com.momocorp.o2jamu.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/statics/uploadfiles/com.plexnor.gravityscreenoffpro.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/statics/uploadfiles/com.sp.protector.free.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/statics/uploadfiles/com.speedsoftware.rootexplorer-V1.1.1.apk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/AppManager/statics/uploadfiles/com.speedsoftware.rootexplorer.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/JDBC_config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/it/lt/controller/Inte/AllInter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/it/lt/controller/back/BackController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/it/lt/controller/dev/AppInfoController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/it/lt/controller/dev/Login.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/it/lt/controller/dev/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/it/lt/dao/back/IBackUserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/it/lt/dao/dev/IAppCategory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/it/lt/dao/dev/IAppInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/it/lt/dao/dev/IAppVersion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/it/lt/dao/dev/IDevUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/it/lt/entity/AdPromotion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/it/lt/entity/AppCategory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/it/lt/entity/AppInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/it/lt/entity/AppVersion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/it/lt/entity/BackendUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/it/lt/entity/DataDictionary.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/it/lt/entity/DevUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/it/lt/entity/tool/Constants.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/it/lt/entity/tool/PageSupport.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/it/lt/service/back/IBackUserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/it/lt/service/back/impl/BackUserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/it/lt/service/dev/IAppCategoryService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/it/lt/service/dev/IAppInfoService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/it/lt/service/dev/IAppVersionService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/it/lt/service/dev/IUserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/it/lt/service/dev/impl/AppCategoryService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/it/lt/service/dev/impl/AppInfoServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/it/lt/service/dev/impl/AppVersionServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/it/lt/service/dev/impl/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/AppCategory.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/AppInfo.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/AppVersion.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/BackUser.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/DevUser.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/springmvc.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="630">
+              <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/JDBC_config.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="21">
+              <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/it/lt/controller/Inte/AllInter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="273">
+              <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/springmvc.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/it/lt/controller/back/BackController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="41" selection-start-line="41" selection-end-line="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/it/lt/controller/dev/AppInfoController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6342">
+              <caret line="323" column="56" selection-start-line="323" selection-start-column="56" selection-end-line="323" selection-end-column="56" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/it/lt/controller/dev/Login.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/it/lt/controller/dev/UserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>findv</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/it/lt/entity/tool/Constants.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/main/appversionadd.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/it/lt/controller/dev/App_Category.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/AppCategory" />
+        <option value="$PROJECT_DIR$/src/main/java/it/lt/dao/dev/AppCategory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/it/lt/dao/dev/IAppCategory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/it/lt/service/dev/IAppCategoryService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/it/lt/service/dev/impl/AppCategoryService.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/AppCategory.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/main/appinfoadd.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/it/lt/controller/dev/App_CategoryController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/statics/localjs/appinfoadd.js" />
+        <option value="$PROJECT_DIR$/src/main/java/it/lt/entity/tool/PageSupport.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/main/appinfoview.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/main/appinfolist.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/statics/localjs/appinfolist.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/main/appinfomodify.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/main/common/header.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/main/appversionmodify.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/it/lt/dao/dev/IAppVersion.java" />
+        <option value="$PROJECT_DIR$/src/main/java/it/lt/service/dev/IAppVersionService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/it/lt/service/dev/impl/AppVersionServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/it/lt/dao/dev/IAppInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/it/lt/service/dev/IAppInfoService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/it/lt/service/dev/impl/AppInfoServiceImpl.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/statics/localjs/appinfomodify.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/statics/localjs/appversionmodify.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/main/common/footer.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/back/common/footer.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/it/lt/controller/dev/AppInfoController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/back/backLogin.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/back/applist.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/back/main.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/back/common/header.jsp" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/AppVersion.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/statics/localjs/applist.js" />
+        <option value="$PROJECT_DIR$/src/main/java/it/lt/service/back/IBackUserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/it/lt/service/back/impl/BackUserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/it/lt/dao/back/IBackUserDao.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/back/appcheck.jsp" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/AppInfo.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/BackUser.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/statics/localjs/appcheck.js" />
+        <option value="$PROJECT_DIR$/src/main/java/it/lt/controller/dev/Login.java" />
+        <option value="$PROJECT_DIR$/src/main/java/it/lt/controller/Inte/AllInter.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/springmvc.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/it/lt/controller/back/BackController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/it/lt/controller/dev/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/resources/JDBC_config.properties" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\LT\mavenjar" />
+        <option name="userSettingsFile" value="E:\LT\maven\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="AppManager Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="AppManager Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="AppManager Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-11" />
+    <option name="y" value="1" />
+    <option name="width" value="1346" />
+    <option name="height" value="698" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="AppManager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AppManager" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AppManager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AppManager" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AppManager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AppManager" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AppManager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AppManager" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AppManager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AppManager" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lt" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AppManager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AppManager" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lt" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AppManager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AppManager" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lt" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="back" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\SSM\AppManager\src\main\webapp\WEB-INF\jsp" />
+      <recent name="E:\SSM\AppManager\src\main\webapp\WEB-INF\jsp\back" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 7.0.94" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.94" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="AppManager:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_AppManager_3" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="61069" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="AppManager:war" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\LT\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ba27506d-c7d8-432f-ad11-72146e995b94" name="Default Changelist" comment="" />
+      <created>1574729927398</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574729927398</updated>
+      <workItem from="1574729932260" duration="25917000" />
+      <workItem from="1574813347760" duration="35167000" />
+      <workItem from="1574900613165" duration="30943000" />
+      <workItem from="1574987000131" duration="14911000" />
+      <workItem from="1575080954576" duration="4743000" />
+      <workItem from="1575171943446" duration="3187000" />
+      <workItem from="1575194125253" duration="10589000" />
+      <workItem from="1575209157423" duration="950000" />
+      <workItem from="1575245729148" duration="241000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="126648000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <layout>
+      <window_info id="Image Layers" order="0" />
+      <window_info id="Capture Tool" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Web" order="4" side_tool="true" />
+      <window_info id="Designer" order="5" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.2753404" />
+      <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Spring" order="0" />
+      <window_info anchor="bottom" id="Terminal" order="1" />
+      <window_info anchor="bottom" id="Docker" order="2" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.50680786" side_tool="true" weight="0.85507244" />
+      <window_info anchor="bottom" id="Messages" order="4" sideWeight="0.49924356" weight="0.32850242" />
+      <window_info anchor="bottom" id="Java Enterprise" order="5" />
+      <window_info anchor="bottom" id="Database Changes" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Application Servers" order="8" weight="0.42512077" />
+      <window_info anchor="bottom" id="Message" order="9" />
+      <window_info anchor="bottom" id="Find" order="10" weight="0.32850242" />
+      <window_info anchor="bottom" id="Run" order="11" sideWeight="0.49319214" weight="0.066022545" />
+      <window_info anchor="bottom" id="Debug" order="12" sideWeight="0.49621785" weight="0.22383253" />
+      <window_info anchor="bottom" id="Cvs" order="13" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="14" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="15" />
+      <window_info anchor="right" id="PlantUML" order="0" />
+      <window_info anchor="right" id="Palette" order="1" />
+      <window_info anchor="right" id="Capture Analysis" order="2" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Word Book" order="6" side_tool="true" />
+      <window_info anchor="right" id="Maven" order="7" weight="0.32980332" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="8" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="9" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="10" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Image Layers" order="0" />
+      <window_info id="Capture Tool" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Web" order="4" side_tool="true" />
+      <window_info id="Designer" order="5" />
+      <window_info content_ui="combo" id="Project" order="6" weight="0.2685325" />
+      <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Spring" order="0" />
+      <window_info anchor="bottom" id="Terminal" order="1" />
+      <window_info anchor="bottom" id="Docker" order="2" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.50680786" side_tool="true" weight="0.85507244" />
+      <window_info anchor="bottom" id="Messages" order="4" sideWeight="0.49924356" weight="0.32850242" />
+      <window_info anchor="bottom" id="Java Enterprise" order="5" />
+      <window_info anchor="bottom" id="Database Changes" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Application Servers" order="8" weight="0.42512077" />
+      <window_info anchor="bottom" id="Message" order="9" />
+      <window_info anchor="bottom" id="Find" order="10" weight="0.32850242" />
+      <window_info anchor="bottom" id="Run" order="11" sideWeight="0.49319214" visible="true" weight="0.18357489" />
+      <window_info anchor="bottom" id="Debug" order="12" sideWeight="0.49621785" weight="0.17713365" />
+      <window_info anchor="bottom" id="Cvs" order="13" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="14" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="15" />
+      <window_info anchor="right" id="PlantUML" order="0" />
+      <window_info anchor="right" id="Palette" order="1" />
+      <window_info anchor="right" id="Capture Analysis" order="2" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Word Book" order="6" side_tool="true" />
+      <window_info anchor="right" id="Maven" order="7" weight="0.32980332" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="8" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="9" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="10" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/it/lt/service/dev/IAppVersionService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="11" column="33" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/main/appversionadd.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="143" column="78" selection-start-line="143" selection-start-column="65" selection-end-line="143" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/statics/localjs/appinfoadd.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/it/lt/entity/AppVersion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6">
+          <caret line="163" column="16" selection-start-line="163" selection-start-column="16" selection-end-line="163" selection-end-column="16" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/statics/localjs/appversionadd.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/main/appversionmodify.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="129" column="55" selection-start-line="129" selection-start-column="55" selection-end-line="129" selection-end-column="55" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#4;n#form#0;n#div#4;n#div#2;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/statics/localjs/appversionmodify.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+          <folding>
+            <element signature="e#3#9#0" expanded="true" />
+            <element signature="e#9#15#0" expanded="true" />
+            <element signature="e#39#45#0" expanded="true" />
+            <element signature="e#45#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/statics/uploadfiles/air.net.machinarium.Machinarium.GP.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/statics/uploadfiles/com.bithack.apparatus.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/statics/uploadfiles/com.doodleapps.powdertoy.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/statics/uploadfiles/com.google.android.inputmethod.pinyin.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/statics/uploadfiles/com.katecca.screenofflockdonate.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/statics/uploadfiles/com.kleientertainment.doNotStarvePocket.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/statics/uploadfiles/com.lbe.security.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/statics/localjs/appinfomodify.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="28" column="33" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/main/common/header.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1825">
+          <caret line="69" column="45" selection-start-line="69" selection-start-column="45" selection-end-line="69" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/main/common/footer.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/main/appinfolist.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="222" column="123" selection-start-line="222" selection-start-column="123" selection-end-line="222" selection-end-column="123" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/statics/localjs/appinfolist.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-609">
+          <caret line="77" column="58" selection-start-line="77" selection-start-column="58" selection-end-line="77" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/it/lt/entity/BackendUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="31" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/back/common/footer.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/it/lt/entity/AppInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="15" column="26" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/back/backLogin.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="82" selection-start-column="82" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1113">
+          <caret line="53" column="53" selection-start-line="53" selection-start-column="53" selection-end-line="53" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/back/main.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="67" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/back/common/header.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="64" column="75" selection-start-line="64" selection-start-column="75" selection-end-line="64" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/it/lt/dao/dev/IAppInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="924">
+          <caret line="47" column="20" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/it/lt/dao/dev/IAppCategory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/it/lt/service/dev/IAppInfoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="19" selection-start-line="11" selection-start-column="4" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/it/lt/service/back/IBackUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/it/lt/dao/back/IBackUserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="35" column="17" lean-forward="true" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/back/applist.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-336">
+          <caret line="17" column="68" selection-start-line="17" selection-start-column="68" selection-end-line="17" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/it/lt/service/back/impl/BackUserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="49" column="53" selection-start-line="49" selection-start-column="53" selection-end-line="49" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/AppInfo.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="135" selection-start-line="135" selection-end-line="135" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/AppVersion.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="37" lean-forward="true" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/BackUser.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="611">
+          <caret line="81" column="13" selection-start-line="81" selection-start-column="13" selection-end-line="81" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/back/appcheck.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="118" column="70" selection-start-line="118" selection-start-column="66" selection-end-line="118" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/statics/localjs/applist.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1365">
+          <caret line="65" column="44" selection-start-line="65" selection-start-column="44" selection-end-line="65" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/statics/localjs/appcheck.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="40" lean-forward="true" selection-start-line="1" selection-start-column="40" selection-end-line="1" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/main/devlogin.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-880" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/main/main.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/403.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-504" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/it/lt/controller/Inte/AllInter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/springmvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/it/lt/controller/back/BackController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/it/lt/controller/dev/AppInfoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6342">
+          <caret line="323" column="56" selection-start-line="323" selection-start-column="56" selection-end-line="323" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/it/lt/controller/dev/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/it/lt/controller/dev/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/JDBC_config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
